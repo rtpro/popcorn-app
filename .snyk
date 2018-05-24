@@ -1,0 +1,11 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:qs:20140806-1':
+    - peerflix > read-torrent > request > qs:
+        patched: '2018-05-24T03:26:17.096Z'
+  'npm:request:20160119':
+    - peerflix > read-torrent > request:
+        patched: '2018-05-24T03:26:17.096Z'
