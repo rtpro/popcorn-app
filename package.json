@@ -27,16 +27,17 @@
     "iconv-lite": "0.2.11",
     "i18n": "0.4.1",
     "xmlrpc": "1.2.0",
-    "request": "2.34.0",
-    "peerflix": "0.1.6",
+    "request": "2.50.0",
+    "peerflix": "0.2.0",
     "cheerio": "0.13.1",
-    "express": "3.4.8",
+    "express": "4.16.0",
     "socket.io": "0.9.16",
     "URIjs": "1.12.1",
     "async": "0.2.x",
     "underscore": "1.6.x",
     "q": "2.0.x",
-    "rimraf": "^2.2.6"
+    "rimraf": "^2.2.6",
+    "snyk": "^1.85.0"
   },
   "devDependencies": {
     "grunt": "0.4.4",
@@ -44,5 +45,10 @@
     "grunt-contrib-compass": "0.7.2",
     "grunt-node-webkit-builder": "0.1.x",
     "load-grunt-tasks": "0.4.0"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
