@@ -31,7 +31,7 @@
     "peerflix": "0.1.6",
     "cheerio": "0.13.1",
     "express": "3.4.8",
-    "socket.io": "0.9.16",
+    "socket.io": "2.4.0",
     "URIjs": "1.12.1",
     "async": "0.2.x",
     "underscore": "1.6.x",
